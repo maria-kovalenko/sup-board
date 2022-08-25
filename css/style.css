@@ -336,7 +336,6 @@ ul {
 }
 
 .buy__item-title {
-  font-family: "Comfortaa", cursive;
   font-weight: 700;
   margin-bottom: 5px;
   text-transform: uppercase;
@@ -416,13 +415,15 @@ ul {
 
 .technology__list {
   margin: 0;
+  padding-left: 24px;
 }
 
 .technology__item {
-font-size: 20px;
-font-weight: 700;
-line-height: 24px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
   margin-bottom: 15px;
+  padding-left: 24px;
 }
 
 .technology__item:last-child {
@@ -432,3 +433,40 @@ line-height: 24px;
   margin-left: 24px;
 }
 
+.gallery {
+}
+
+.gallery__wrapper {
+}
+.gallery__box {
+  display: flex;
+  align-items: center;
+  gap: 68px;
+}
+.gallery__text {
+  max-width: 350px;
+}
+.gallery__min {
+}
+.gallery__min-1 {
+}
+.gallery__min-2 {
+}
+.gallery__min-3 {
+}
+.gallery__max {
+}
+.gallery__max-1 {
+}
+.gallery__max-2 {
+}
+.gallery__max-3 {
+}
+.gallery__max-4 {
+}
+.gallery__max-5 {
+}
+.gallery__max-text {
+}
+.gallery__max-6 {
+}
