@@ -40,6 +40,8 @@ ul {
   margin: 0 auto;
 }
 
+/* ----------------header---------------- */
+
 .header {
   position: relative;
   min-height: 100vh;
@@ -125,8 +127,9 @@ ul {
 .header__content-box {
   width: 550px;
   margin-right: 40px;
+  text-transform: uppercase;
   text-align: center;
-  font-family: Comfortaa;
+  font-family: "Comfortaa", cursive;
   font-weight: 700;
   color: #fff;
 }
@@ -150,12 +153,12 @@ ul {
 
 .header__decor-text--one,
 .header__decor-text--two {
-  font-family: Comfortaa;
+  font-family: "Comfortaa", cursive;
   font-size: 130px;
   font-weight: 400;
   line-height: 145px;
   color: #0093a1;
-
+  text-transform: uppercase;
   opacity: 0.3;
 }
 
@@ -179,10 +182,12 @@ ul {
   font-weight: 300;
   line-height: 39px;
   text-align: center;
-
+  text-transform: uppercase;
   color: #0093a1;
   z-index: 4;
 }
+
+/* ----------------info---------------- */
 
 .info {
   position: relative;
@@ -202,6 +207,8 @@ ul {
   background-color: #262c27;
   transform: translateY(-40px);
 }
+
+/* ----------------info-top---------------- */
 
 .info__top {
   display: flex;
@@ -247,6 +254,8 @@ ul {
   z-index: 6;
 }
 
+/* ----------------info-specs---------------- */
+
 .info__specs {
   display: flex;
   align-items: center;
@@ -256,10 +265,12 @@ ul {
 
 .info__specs-title {
   width: 250px;
-  font-family: Comfortaa;
+  font-family: "Comfortaa", cursive;
+
   font-size: 60px;
   font-weight: 400;
   line-height: 67px;
+  text-transform: uppercase;
   color: #fff;
 }
 
@@ -268,6 +279,7 @@ ul {
   font-family: Inter;
   font-weight: 700;
   color: #fff;
+  text-transform: uppercase;
   padding: 30px 0;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
@@ -288,4 +300,83 @@ ul {
 
 .info__specs-meaning {
   width: 355px;
+}
+
+/* ----------------buy---------------- */
+
+.buy {
+  padding: 150px 0;
+}
+
+.buy__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+.buy__content {
+  position: relative;
+  width: 510px;
+}
+
+.buy__title {
+  margin-bottom: 50px;
+  font-family: "Comfortaa", cursive;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 67px;
+  color: #0093a1;
+}
+
+.buy__list {
+  width: 292px;
+  margin-bottom: 50px;
+}
+
+.buy__item {
+  margin-bottom: 25px;
+}
+
+.buy__item-title {
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.buy__price {
+  position: absolute;
+  right: 0;
+  bottom: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 201px;
+  height: 199px;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42px;
+  background-image: url(../images/Star.svg);
+}
+
+.buy__btn {
+  width: 100%;
+  max-width: 484px;
+  padding: 18px;
+  font-family: "Comfortaa", cursive;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #0093a1;
+  background-color: transparent;
+  border: 2px solid #0093a1;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buy__btn:hover {
+  color: #262c27;
+  background-color: #b9c400;
+  border: 2px solid #b9c400;
 }
