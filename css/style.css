@@ -516,7 +516,6 @@ ul {
   gap: 20px;
 }
 
-
 .gallery__max-img--2 {
   grid-column: 2/-1;
   justify-self: flex-end;
@@ -885,6 +884,7 @@ ul {
   .buy__title {
     margin-bottom: 30px;
   }
+
   .buy__price {
     right: 0;
     top: -153px;
@@ -902,6 +902,10 @@ ul {
 
   .buy__title {
     margin-top: 20px;
+  }
+
+  .buy__img {
+    width: 100%;
   }
   .buy__list {
     width: 100%;
@@ -989,6 +993,7 @@ ul {
     margin-bottom: 30px;
   }
   .gallery__min {
+    grid-template-rows: 1.1fr 0fr;
     gap: 10px;
     margin-top: 65px;
     padding: 20px;
