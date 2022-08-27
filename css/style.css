@@ -859,9 +859,6 @@ ul {
   }
 
   .buy__price {
-    /* width: 170px;
-    height: 168px;
-    background-size: cover; */
     pointer-events: none;
   }
   .buy__img {
@@ -872,15 +869,35 @@ ul {
 }
 
 @media (max-width: 1023px) {
+  .buy__wrapper {
+    gap: 0;
+  }
+
+  .buy__content {
+    margin-top: 50px;
+  }
+
+  .buy__title {
+    margin-bottom: 30px;
+  }
   .buy__price {
     right: 0;
     top: -153px;
     width: 145px;
     height: 142px;
     background-size: cover;
+    font-size: 25px;
   }
 }
 @media (max-width: 767px) {
+  .title {
+    font-size: 34px;
+    line-height: 34px;
+  }
+
+  .buy__title {
+    margin-top: 20px;
+  }
   .buy__list {
     width: 100%;
   }
@@ -890,5 +907,5 @@ ul {
     font-size: 25px;
     line-height: 25px;
     padding: 12px;
-}
+  }
 }
