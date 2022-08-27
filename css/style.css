@@ -638,7 +638,7 @@ ul {
   font-weight: 700;
 }
 
-/* ----------------media------------------------------------ */
+/* ----------------media-header------------------------------------ */
 @media (max-width: 1500px) {
   .container {
     width: 73%;
@@ -690,9 +690,9 @@ ul {
     width: 88%;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 1023px) {
   .header {
-    background-position: 43%;
+    background-position: 41%;
   }
 }
 @media (max-width: 767px) {
@@ -727,11 +727,7 @@ ul {
   }
 }
 
-@media (max-width: 520px) {
-  .header {
-    background-position: 40%;
-  }
-}
+
 
 @media (max-width: 414px) {
   .header__content {
@@ -746,3 +742,5 @@ ul {
     display: none;
   }
 }
+
+/* ----------------media-main------------------------------------ */
