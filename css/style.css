@@ -29,7 +29,7 @@ p {
 }
 
 img {
-  height: auto;
+  /* height: auto; */
   object-fit: cover;
 }
 
@@ -838,6 +838,7 @@ ul {
 
   .buy__img {
     width: 450px;
+    height: auto;
   }
 
   .buy__btn {
