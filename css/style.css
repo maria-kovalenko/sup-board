@@ -967,13 +967,14 @@ ul {
 
   .gallery__min-img {
     width: 100%;
+    max-height: 100%;
     align-self: stretch;
   }
 }
 
 @media (max-width: 767px) {
   .technology__top-wrapper {
-    padding-top: 300px;
+    padding-top: 350px;
   }
 
   .technology__btn {
