@@ -509,6 +509,9 @@ ul {
   grid-row: 2/3;
   border-radius: 0px 0px 0px 300px;
 }
+.gallery__min-img--3{
+height: 100%;
+}
 .gallery__max {
   display: grid;
   grid-template-columns: 300px 469px 391px;
@@ -969,6 +972,10 @@ ul {
     width: 100%;
     /* max-height: 100%; */
     align-self: stretch;
+  }
+
+  .gallery__min-img--3 {
+    height: auto;
   }
 }
 
