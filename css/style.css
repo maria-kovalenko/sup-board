@@ -204,7 +204,7 @@ ul {
 
 .info {
   position: relative;
-  background-image: url(../images/info-bg.jpg);
+  background-image: url(../images/info-bg.webp.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -417,7 +417,7 @@ ul {
   margin-bottom: 150px;
 }
 .technology__top {
-  background-image: url(../images/technology-bg.jpg);
+  background-image: url(../images/technology-bg.webp.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
