@@ -968,6 +968,7 @@ ul {
   .gallery__min-img {
     width: 100%;
     max-height: 100%;
+    align-self: stretch;
   }
 }
 
@@ -993,11 +994,17 @@ ul {
     margin-bottom: 30px;
   }
   .gallery__min {
-
-    /* grid-template-rows: 140px 107px; */
+    /* width: 273px;
+margin-left: auto;
+margin-right: auto;
+grid-template-rows: 140px 107px; */
     gap: 10px;
     margin-top: 65px;
     padding: 20px;
+  }
+
+  .gallery__min-img--3 {
+    height: 160px;
   }
 
   .gallery__min::before {
