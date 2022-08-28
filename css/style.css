@@ -1043,16 +1043,28 @@ grid-template-rows: 140px 107px; */
     margin-bottom: 50px;
   }
 
-  
   .gallery__max-text {
     font-size: 18px;
     line-height: 20px;
   }
 }
 @media (max-width: 767px) {
- 
-.gallery__max {
+  .gallery__box {
+    margin-bottom: 30px;
+  }
+  .gallery__max {
     gap: 10px;
-    
+  }
+
+  .gallery__max-text {
+    font-size: 13px;
+    line-height: 19px;
+  }
 }
+@media (max-width: 539px) {
+  .gallery__max-text {
+    font-size: 11px;
+    line-height: 13px;
+    padding: 0 15px;
+  }
 }
