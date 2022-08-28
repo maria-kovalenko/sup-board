@@ -58,7 +58,7 @@ ul {
 .header {
   position: relative;
   min-height: 100vh;
-  background-image: url(../images/header-bg.jpg);
+  background-image: url(../images/header-bg.webp.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -593,10 +593,8 @@ ul {
 .footer__form-input {
   width: 100%;
   padding: 10px 0;
-  /* margin-bottom: 57px; */
   background-color: transparent;
   border: none;
-  /* border-bottom: 1px solid rgba(255, 255, 255, 0.4); */
   color: #fff;
 }
 
